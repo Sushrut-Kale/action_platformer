@@ -1,0 +1,270 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_1.png" id="1_8bhxn"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_2.png" id="2_e80mr"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_3.png" id="3_h50nh"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_4.png" id="4_nca0g"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_5.png" id="5_d06pf"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_6.png" id="6_el743"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_7.png" id="7_a1bhc"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_8.png" id="8_yeuo5"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_9.png" id="9_akssm"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_10.png" id="10_5tfgw"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_11.png" id="11_4iytt"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_12.png" id="12_w8gpe"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_13.png" id="13_tno00"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_14.png" id="14_vs60h"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/03_demon_cleave/demon_cleave_15.png" id="15_q6250"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_1.png" id="16_l1e8v"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_2.png" id="17_q3nt6"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_3.png" id="18_q3ffx"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_4.png" id="19_v61k8"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_5.png" id="20_gov80"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_6.png" id="21_0ef0g"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_7.png" id="22_oxfcd"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_8.png" id="23_yings"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_9.png" id="24_1xlnw"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_10.png" id="25_adao8"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_11.png" id="26_lpcbd"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_12.png" id="27_nn6as"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_13.png" id="28_pomaa"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_14.png" id="29_txkdm"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_15.png" id="30_1r2q5"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_16.png" id="31_fgums"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_17.png" id="32_64wni"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_18.png" id="33_rrr27"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_19.png" id="34_77uea"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_20.png" id="35_ehwqy"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_21.png" id="36_v455f"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/05_demon_death/demon_death_22.png" id="37_vstls"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/01_demon_idle/demon_idle_1.png" id="38_n4cms"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/01_demon_idle/demon_idle_2.png" id="39_owwfi"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/01_demon_idle/demon_idle_3.png" id="40_sapn0"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/01_demon_idle/demon_idle_4.png" id="41_qyr8q"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/01_demon_idle/demon_idle_5.png" id="42_svrsj"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/01_demon_idle/demon_idle_6.png" id="43_k4siw"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/04_demon_take_hit/demon_take_hit_1.png" id="44_yexyd"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/04_demon_take_hit/demon_take_hit_2.png" id="45_b8d1t"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/04_demon_take_hit/demon_take_hit_3.png" id="46_b6ojv"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/04_demon_take_hit/demon_take_hit_4.png" id="47_t860w"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/04_demon_take_hit/demon_take_hit_5.png" id="48_5go2c"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_1.png" id="49_n2h5b"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_2.png" id="50_ebh0r"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_3.png" id="51_yb50c"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_4.png" id="52_boiqo"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_5.png" id="53_q4p20"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_6.png" id="54_6u2kw"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_7.png" id="55_vfiup"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_8.png" id="56_dogdh"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_9.png" id="57_qcwh0"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_10.png" id="58_ikn8u"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_11.png" id="59_kajjj"]
+[ext_resource type="Texture2D" path="res://assets/enemies/demon/individual sprites/02_demon_walk/demon_walk_12.png" id="60_b0vqc"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8bhxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_e80mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_h50nh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nca0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_d06pf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_el743")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_a1bhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yeuo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_akssm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5tfgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4iytt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_w8gpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_tno00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vs60h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_q6250")
+}],
+"loop": 0,
+"name": &"cleave",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_l1e8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_q3nt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_q3ffx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_v61k8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_gov80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0ef0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_oxfcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_yings")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_1xlnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_adao8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lpcbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_nn6as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_pomaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_txkdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_1r2q5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_fgums")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_64wni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_rrr27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_77uea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ehwqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_v455f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_vstls")
+}],
+"loop": 0,
+"name": &"death",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_n4cms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_owwfi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_sapn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_qyr8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_svrsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_k4siw")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_yexyd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_b8d1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_b6ojv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_t860w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_5go2c")
+}],
+"loop": 0,
+"name": &"take_hit",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_n2h5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ebh0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_yb50c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_boiqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_q4p20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_6u2kw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_vfiup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_dogdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_qcwh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_ikn8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_kajjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_b0vqc")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 8.0
+}]

@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/pickups/health_pickup.gd" id="1_hp"]
+[ext_resource type="Texture2D" path="res://assets/environment/Tileset.png" id="2_tiles"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_item"]
+atlas = ExtResource("2_tiles")
+region = Rect2(128, 144, 16, 16)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_col"]
+radius = 8.0
+
+[node name="HealthPickup" type="Area2D"]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("1_hp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_item")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_col")

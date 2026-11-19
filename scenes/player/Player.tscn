@@ -1,0 +1,55 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/player/player.gd" id="1_gfjak"]
+[ext_resource type="SpriteFrames" path="res://scenes/player/ninja_sprite_frames.tres" id="2_4kuee"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_524rm"]
+radius = 6.0
+height = 20.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tpg5x"]
+radius = 7.0
+height = 22.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c3xxp"]
+size = Vector2(22, 18)
+
+[node name="Player" type="CharacterBody2D" unique_id=344418667]
+collision_layer = 2
+script = ExtResource("1_gfjak")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=255571242]
+position = Vector2(0, -13)
+sprite_frames = ExtResource("2_4kuee")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1331497473]
+position = Vector2(0, -10)
+shape = SubResource("CapsuleShape2D_524rm")
+
+[node name="Hurtbox" type="Area2D" parent="." unique_id=661759420]
+collision_layer = 2
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=1639899462]
+position = Vector2(0, -11)
+shape = SubResource("CapsuleShape2D_tpg5x")
+
+[node name="AttackHitbox" type="Area2D" parent="." unique_id=1334807442]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackHitbox" unique_id=2110133416]
+position = Vector2(16, -11)
+shape = SubResource("RectangleShape2D_c3xxp")
+disabled = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1964003714]
+process_callback = 0
+zoom = Vector2(2.5, 2.5)
+limit_left = -70
+limit_top = -140
+limit_right = 1210
+limit_bottom = 220
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0

@@ -1,0 +1,61 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/combat_room.gd" id="1_xu8yh"]
+[ext_resource type="PackedScene" path="res://scenes/enemies/Demon.tscn" id="2_wt1nc"]
+[ext_resource type="Script" path="res://scripts/enemies/demon.gd" id="3_8x7ia"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2dm4l"]
+size = Vector2(16, 160)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q31tu"]
+size = Vector2(16, 160)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_djt3d"]
+size = Vector2(30, 100)
+
+[node name="CombatRoom" type="Node2D" unique_id=1537920785]
+script = ExtResource("1_xu8yh")
+
+[node name="LeftBarrier" type="StaticBody2D" parent="." unique_id=10704463]
+position = Vector2(-160, -70)
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftBarrier" unique_id=1857736166]
+shape = SubResource("RectangleShape2D_2dm4l")
+
+[node name="Visual" type="ColorRect" parent="LeftBarrier" unique_id=1383845076]
+offset_left = -8.0
+offset_top = -80.0
+offset_right = 8.0
+offset_bottom = 80.0
+color = Color(0.8, 0.2, 0.2, 0.6)
+
+[node name="RightBarrier" type="StaticBody2D" parent="." unique_id=119678634]
+position = Vector2(160, -70)
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightBarrier" unique_id=727821500]
+shape = SubResource("RectangleShape2D_q31tu")
+
+[node name="Visual" type="ColorRect" parent="RightBarrier" unique_id=326635976]
+offset_left = -8.0
+offset_top = -80.0
+offset_right = 8.0
+offset_bottom = 80.0
+color = Color(0.8, 0.2, 0.2, 0.6)
+
+[node name="CombatTrigger" type="Area2D" parent="." unique_id=111856176]
+position = Vector2(-120, -50)
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CombatTrigger" unique_id=85248361]
+shape = SubResource("RectangleShape2D_djt3d")
+
+[node name="EnemySpawn" type="Marker2D" parent="." unique_id=637249900]
+position = Vector2(70, 0)
+
+[node name="Demon" type="CharacterBody2D" parent="." unique_id=536375648 instance=ExtResource("2_wt1nc")]
+position = Vector2(70, 0)
+collision_layer = 4
+script = ExtResource("3_8x7ia")

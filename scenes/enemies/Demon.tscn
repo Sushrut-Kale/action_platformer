@@ -1,0 +1,79 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/enemies/demon.gd" id="1_heald"]
+[ext_resource type="SpriteFrames" path="res://scenes/enemies/demon_sprite_frames.tres" id="2_f6x8y"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i0qgb"]
+radius = 20.0
+height = 72.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4dvkv"]
+radius = 22.0
+height = 76.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0hs7r"]
+size = Vector2(55, 60)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wmd5e"]
+radius = 180.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hp_bg"]
+bg_color = Color(0.1, 0.1, 0.1, 0.85)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hp_fill"]
+bg_color = Color(0.85, 0.15, 0.15, 1.0)
+
+[node name="Demon" type="CharacterBody2D" unique_id=536375648]
+collision_layer = 4
+script = ExtResource("1_heald")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=748699134]
+position = Vector2(0, -80)
+sprite_frames = ExtResource("2_f6x8y")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1136464926]
+position = Vector2(0, -36)
+shape = SubResource("CapsuleShape2D_i0qgb")
+
+[node name="Hurtbox" type="Area2D" parent="." unique_id=1343929379]
+collision_layer = 4
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=1775073404]
+position = Vector2(0, -36)
+shape = SubResource("CapsuleShape2D_4dvkv")
+
+[node name="AttackHitbox" type="Area2D" parent="." unique_id=583782415]
+collision_layer = 16
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackHitbox" unique_id=1333543947]
+position = Vector2(-40, -35)
+shape = SubResource("RectangleShape2D_0hs7r")
+disabled = true
+
+[node name="PlayerRayCast" type="RayCast2D" parent="." unique_id=325733226]
+position = Vector2(0, -35)
+enabled = false
+target_position = Vector2(-160, 0)
+collision_mask = 3
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1847396122]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=1262599639]
+position = Vector2(0, -35)
+shape = SubResource("CircleShape2D_wmd5e")
+
+[node name="HPBar" type="ProgressBar" parent="." unique_id=987222001]
+offset_left = -20.0
+offset_top = -80.0
+offset_right = 20.0
+offset_bottom = -75.0
+theme_override_styles/background = SubResource("StyleBoxFlat_hp_bg")
+theme_override_styles/fill = SubResource("StyleBoxFlat_hp_fill")
+max_value = 5.0
+value = 5.0
+show_percentage = false
